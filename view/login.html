@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reggeaton Beach Festival - Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <div class="palm">🌴</div>
+    <div class="palm">🪅</div>
+
+    
+    <!-- Partículas decorativas -->
+    <div class="particle" style="width: 10px; height: 10px; top: 20%; left: 30%; animation-delay: 0s;"></div>
+    <div class="particle" style="width: 8px; height: 8px; top: 60%; left: 70%; animation-delay: 1s;"></div>
+    <div class="particle" style="width: 12px; height: 12px; top: 40%; left: 80%; animation-delay: 2s;"></div>
+    
+    <form action="../includes/login.proc.php" method="POST">
+        <h1>¡Bienvenido al<br>Musical Fest!</h1>
+        <input type="text" name="usuario" id="usuario" placeholder="Introducir usuario">
+        <input type="password" name="pass" id="pass" placeholder="Introducir contraseña">
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
